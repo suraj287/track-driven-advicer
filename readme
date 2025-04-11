@@ -1,0 +1,34 @@
+# Spotify Top Tracks App
+
+A full-stack Node.js application that allows users to authenticate via Spotify OAuth, view their top 5 most-played tracks, and receive personalized advice or suggestions based on their music preferences.
+
+---
+
+## Features
+
+- **Spotify OAuth Login** using Authorization Code Flow
+- **Top 5 Tracks API** using Spotify Web API (`/me/top/tracks`)
+- **Advice API Integration** to offer music-based suggestions (`https://api.adviceslip.com/advice`)
+- Clean separation of frontend & backend
+- Token and session management in localStorage
+
+---
+
+## Tech Stack
+
+- **Backend:** Node.js, Express.js
+- **OAuth:** Spotify Authorization Code Flow
+- **APIs Used:** Spotify Web API, Custom Advice API
+- **Environment:** dotenv, axios, nodemon
+
+---
+## Running the App
+
+### 1. Install Dependencies
+
+Make sure you're in the project root, then run:
+
+```bash
+npm install
+npm run dev <`starts the nodemon`>
+npm start without Nodemon
